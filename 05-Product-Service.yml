@@ -3,6 +3,8 @@ spring:
     admin:
       client:
         url: http://localhost:1111/
+  profiles:
+    active: default
   datasource:
     username: root
     password: test
